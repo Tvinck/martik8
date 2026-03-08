@@ -206,7 +206,7 @@ export default function App() {
           )}
 
           {gameState === 'transition' && (
-            <TransitionScreen level={LEVELS[currentLevelIndex - 1]} />
+            <TransitionScreen level={LEVELS[currentLevelIndex]} />
           )}
 
           {gameState === 'finished' && (
